@@ -1,0 +1,159 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Start Font Formatting*/
+
+.s0 {
+    font-family: Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+.s1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+.s2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.8em;
+}
+
+.s3 {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.6em;
+}
+
+.s4 {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+.s5 {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+}
+
+p {
+    font-family: Garamond, serif;
+    font-size: 1em;
+}
+
+/*End Font Formatting*/
+
+#body {
+    text-align: left;
+}
+
+#header {
+    padding: 10px 20px;
+    border-bottom: 2px solid #aaaaaa;
+    color: #ffffff;
+    background-color: #003f7f;
+}
+
+#inputform {
+    padding: 10px 20px 10px 50px;
+    color: #000000;
+    background-color: #ffffff;
+    text-align: center;
+    border-bottom: 2px solid #aaaaaa;
+}
+
+#inputtitle {
+    display: inline-block;
+}
+
+#input {
+    width: 70%;
+    border-radius: 0;
+    border: 0;
+    margin: 0 10px 0 20px;
+}
+
+#input:focus-visible {
+    border-radius: 0;
+    border-bottom: 2px solid #000000;
+    outline: 0;
+}
+
+#addtaskbutton {
+    box-shadow: none;
+    border: 0;
+    background-color: #003f7f;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+#addtaskbutton:hover {
+    background-color: #1478db;
+}
+
+#completed {
+    background-color: #dddddd;
+    color: #000000;
+    padding: 10px 20px 10px 50px;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+#todo {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px 10px 50px;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.listgroup {
+    list-style-type: none;
+} 
+
+.checkbutton {
+    border: 0;
+    background-color: #ffffff00;
+    box-shadow: 0;
+} 
+
+.task {
+    color: #000000;
+    padding: 5px;
+    margin: 5px;
+} 
+
+.delbutton {
+    box-shadow: none;
+    border: 0;
+    background-color: #003f7f;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 15px;
+    box-sizing: border-box;
+} 
+
+.delbutton:hover {
+    background-color: #1478db;
+} 
+
+.done {
+    color: #14a133;
+    padding: 5px;
+    margin: 5px;
+} 
+
+.checkimg {
+    height: 21px;
+    width: auto;
+    display: inline-block;
+    margin-right: 5px;
+}

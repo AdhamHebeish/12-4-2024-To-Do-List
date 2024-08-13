@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="static/styles.css" />
+    <link rel="icon" href="images/icon.svg" />
+    <title>To-Do List</title>
+</head>
+<body>
+    <div id="body">
+        <div id="header">
+            <h1 class="s0">To-Do List</h1>
+        </div>
+        <div>
+            <div id="inputform">
+                <h1 class="s5" id="inputtitle">Add a new task:</h1>
+                <input type="text" id="input" placeholder="Ex: Do the dishes, Schedule an appointment, etc."/>
+                <button id="addtaskbutton" onclick="addtask()">Add Task</button>
+            </div>
+            <div id="todo">
+                <h1 class="s4">Tasks</h1>
+                <ul id="tasks" class="listgroup">
+                </ul>
+            </div>
+            <div id="completed">
+                <h1 class="s4">Completed Tasks</h1>
+                <ul id="donetasks" class="listgroup">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
